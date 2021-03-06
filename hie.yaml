@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "redo:lib"
+
+    - path: "./app/Main.hs"
+      component: "redo:exe:redo-exe"
+
+    - path: "./app/Paths_redo.hs"
+      component: "redo:exe:redo-exe"
+
+    - path: "./test"
+      component: "redo:test:redo-test"
